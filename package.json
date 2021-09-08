@@ -1,12 +1,21 @@
 {
   "name": "hello-node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogdanTabor/hello-node-js.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BogdanTabor/hello-node-js/issues"
+  },
+  "homepage": "https://github.com/BogdanTabor/hello-node-js#readme",
+  "description": ""
 }
