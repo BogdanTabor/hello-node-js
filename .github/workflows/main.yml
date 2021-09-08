@@ -15,7 +15,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       # Runs a single command using the runners shell
+      - name: start page
+        run: 'http://localhost:8000'
       - name: start app
         run: npm install
              npm start
-        wait-on: 'http://localhost:8000'
